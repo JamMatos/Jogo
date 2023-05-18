@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: rgb(140, 167, 167);
+    text-align: center;
+}
+
+#yes{
+    background-color: rgb(16, 202, 16);
+    color: whitesmoke;
+    padding: 10px 10px;
+    border: none;
+}
+
+#yes:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#no {
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px 10px;
+    border: none;
+}
+
+#no:hover {
+    background-color: orange;
+    cursor: pointer;
+}
