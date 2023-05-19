@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de RPG de Texto</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="game-container" id="game-container">
+        <h1>Bem-vindo(a) ao Jogo de RPG de Texto!</h1>
+        <p id="story">...</p>
+    </div>
+    <form id="choice-form">
+        <p hidden id="story">...</p>
+        <input type="text" id="choice-input" placeholder="Digite sua escolha...">
+        <button type="submit">Enviar</button>
+    </form>
+    <div hidden class="parte" id="parte1" style="display: none;">
+        <h1>Primeira Parte</h1>
+    </div>
+    <div hidden class="parte" id="parte2" style="display: none;">
+        <h1>Segunda Parte</h1>
+    </div>
+    <div hidden class="parte" id="parte3">
+        <h1>Terceira Parte</h1>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

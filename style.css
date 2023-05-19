@@ -4,14 +4,14 @@ body {
     text-align: center;
 }
 
-#yes{
+#yes,button{
     background-color: rgb(16, 202, 16);
     color: whitesmoke;
     padding: 10px 10px;
     border: none;
 }
 
-#yes:hover{
+#yes:hover,button:hover{
     background-color: aqua;
     cursor: pointer;
 }
